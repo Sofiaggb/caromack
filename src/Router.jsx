@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 // pages
 import Home from "./pages/Home"
 import { ProductPage } from "./pages/ProductPage";
+import Error from "./pages/Error";
 
 
 const Layout = () => {
@@ -38,10 +39,12 @@ export const router = createBrowserRouter([
                 path: "/product/:id",
                 element: <ProductPage />
             },
-        //     {
-        //         path: "/cart",
-        //         element: <Cart />
-        //     },
         ]
-    }
-]);
+    },
+    {
+        path: "*",
+        element: <Error />, // Ruta para manejar 404
+    },
+], {
+    basename: "/caromack",
+});
