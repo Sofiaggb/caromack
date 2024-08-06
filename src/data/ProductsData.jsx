@@ -21,6 +21,14 @@ import lapiz from "../assets/img/products/lapiz.jpg"
 import lapicero from "../assets/img/products/lapicero.jpg"
 import papel_fotografico from "../assets/img/products/papel_fotografico.png"
 import notas from "../assets/img/products/notas.png"
+import marcador_pizarra from "../assets/img/products/marcador_pizarra.jpg"
+import marcador_permanente from "../assets/img/products/marcador_permanente.jpg"
+import Cartulina from "../assets/img/products/Cartulina.jpg"
+import tubo_luz_led from "../assets/img/products/tubo_luz_led.png"
+import bombillo from "../assets/img/products/bombillo.png"
+import carpeta_pvc from "../assets/img/products/carpeta_pvc.jpg"
+import hojas_adesivas from "../assets/img/products/hojas_adesivas.jpeg"
+import hoja_pvc from "../assets/img/products/hoja_pvc.jpg"
 
 
 
@@ -192,6 +200,22 @@ export const ProductsData = [
       img: luz_led
     },
     {
+      id: 27,
+      title: "Iluminación Tubo Led 10wT8 60cm",
+      shortDescription:" Tubo LED de 10W, eficiente y duradero, con luz de 6500K para una iluminación clara y brillante.",
+      description: "El Tubo LED de última generación, ideal para iluminar cualquier espacio con su luz blanca y fría de 6500K. Este tubo de 10W no solo es energéticamente eficiente, sino que también tiene una vida útil prolongada, reduciendo la necesidad de reemplazos frecuentes. Con un flujo luminoso de 700lm, proporciona una iluminación potente mientras ahorra hasta un 80% en consumo eléctrico comparado con los tubos fluorescentes tradicionales. Su diseño clásico se adapta perfectamente a los soportes G13 existentes, facilitando la instalación sin complicaciones. Ideal para oficinas, cocinas o garajes; este Tubo LED es la elección inteligente para una iluminación sostenible y económica.",
+      price: "$19.99",   
+      img: tubo_luz_led
+    },
+    {
+      id: 28,
+      title: "Bombillo dicroico WU10, Luz blanca",
+      shortDescription:"Bombilla LED CLASSIC LUX de alto rendimiento, modelo GU10-LED.",
+      description: "La bombilla LED CLASSIC LUX, la solución perfecta para iluminar su espacio con una luz clara y potente mientras reduce el consumo de energía. Este modelo GU10-LED es compatible con 120V y 60Hz, ideal para uso doméstico o comercial. Su diseño robusto promete durabilidad y un rendimiento constante. Con la tecnología SUPER BRIGHT LED, esta bombilla no solo ilumina más que las tradicionales sino que también dura mucho más tiempo, garantizando así un ahorro significativo en reemplazos y mantenimiento. Perfecta para aquellos que buscan calidad, eficiencia y sostenibilidad en su iluminación.",
+      price: "$19.99",   
+      img: bombillo
+    },
+    {
       id: 12,
       title: "Engrapadora Stapler Ofimack",
       shortDescription:"Diseñada para grapas planas y corrugadas. Su capacidad es de 22 hojas.",
@@ -204,7 +228,7 @@ export const ProductsData = [
       title: "Pegamento Kores Silikon Glue ",
       shortDescription:"Garantiza una unión resistente y duradera en superficies como papel, cartón, foami y plástico.",
       description: "El pegamento Kores Silikon Glue es un adhesivo versátil y de alta calidad, formulado con silicona para ofrecer una adherencia excepcional en múltiples materiales. Con una presentación de 30 gramos (29 ml), este pegamento es perfecto tanto para uso doméstico como profesional, siendo indispensable en oficinas, escuelas y talleres de manualidades.",
-      price: "$19.99",
+      price: "1,50",
       img: silikon_glue
     },
     {
@@ -286,5 +310,53 @@ export const ProductsData = [
       description: "Las notas adhesivas Kores son una herramienta esencial para la organización y la toma de notas, diseñadas en un práctico tamaño de 75 mm x 75 mm (3 pulgadas x 3 pulgadas). Cada paquete contiene 400 hojas en una atractiva variedad de colores pastel surtidos, proporcionando una solución visualmente agradable para recordatorios, listas de tareas y mensajes rápidos.",
       price: "$19.99",   
       img: notas
+    },
+    {
+      id: 24,
+      title: "Marcador De Pizarra Acrílica Ofimak (azul y rojo)",
+      shortDescription:"Marcadores para pizarra de la marca Ofimak con punta redonda, presentados en un empaque que contiene 12 unidades.",
+      description: "El producto es un conjunto de marcadores para pizarra de la marca Ofimak, específicamente diseñados para uso en superficies de pizarras blancas. Los marcadores cuentan con una punta redonda que facilita la escritura suave y uniforme. El empaque incluye 12 marcadores en colores azul y rojo, ideal para un uso prolongado en entornos educativos, oficinas o cualquier lugar que requiera escritura en pizarras.",
+      price: "$19.99",   
+      img: marcador_pizarra
+    },
+    {
+      id: 25,
+      title: "Marcador Permanente Ofimack (azul, negro y rojo)",
+      shortDescription:"Marcadores permanentes Ofimak con punta redonda de 4mm para escritura duradera y precisa.",
+      description: "Los marcadores permanentes Ofimak modelo 806 con punta redonda de 4mm, perfectos para profesionales y estudiantes que buscan calidad y durabilidad en su material de escritura. Este paquete contiene 12 piezas en colores vibrantes como azul profundo, negro intenso y rojo brillante que garantizan una aplicación suave y resistente al agua. Ideal para todo tipo de superficies; estos marcadores son la elección acertada para destacar sus ideas con claridad y permanencia.",
+      price: "$19.99",   
+      img: marcador_permanente
+    },
+    {
+      id: 26,
+      title: "Cartlina Kores Tamaño Carta",
+      shortDescription:"Paquete de cartulina amarilla Kores, ideal para proyectos creativos y manualidades.",
+      description: "La cartulina Kores, el complemento perfecto para cualquier proyecto artístico o escolar.  La robustez del papel garantiza durabilidad mientras que su superficie lisa asegura una aplicación uniforme de adhesivos, pinturas y otros materiales. Con la confianza de la marca Kores, esta cartulina es una elección excelente para trabajos manuales, presentaciones escolares o cualquier actividad que requiera un toque de color y originalidad.",
+      price: "$19.99",   
+      img: Cartulina
+    },
+    {
+      id: 29,
+      title: "Carpeta oficio PVC con Ligas",
+      shortDescription:"Esta carpeta de PVC en colores verde, transparente y azul cuenta con ligas elásticas para mantener tus papeles seguros y ordenados.",
+      description: "Optimiza tu espacio de trabajo con nuestra carpeta de oficio en PVC. Disponible en tres colores vibrantes (verde, transparente y azul), esta carpeta combina funcionalidad y diseño. Las ligas elásticas mantienen tus documentos en su lugar, mientras que el material resistente protege contra rasgaduras y derrames. Ideal para profesionales y estudiantes, esta carpeta es una inversión inteligente para mantener tu vida organizada.",
+      price: "$19.99",   
+      img: carpeta_pvc
+    },
+    {
+      id: 30,
+      title: "Hojas Autoadhesivas Tamaño Carta",
+      shortDescription:"Imprime tus diseños y pégales en documentos, frascos o productos.",
+      description: "Optimiza tu organización con nuestras hojas autoadhesivas tamaño carta. Estas hojas son perfectas para imprimir etiquetas personalizadas, stickers o calcomanías. El papel adhesivo de alta calidad garantiza una fijación segura en documentos, cuadernos o productos. Ya sea en la oficina o en casa, estas hojas son versátiles y fáciles de desprender. ¡Dale un toque creativo a tus proyectos con estas hojas autoadhesivas!",
+      price: "$19.99",   
+      img: hojas_adesivas
+    },
+    {
+      id: 31,
+      title: "Hoja Tamaño Carta en PVC",
+      shortDescription:"Organiza y protege tus documentos con esta hoja de PVC transparente. Ideal para crear etiquetas, separadores o cubiertas personalizadas.",
+      description: "Maximiza la organización y la presentación de tus documentos con nuestra hoja de PVC transparente tamaño carta. Esta lámina duradera es perfecta para crear etiquetas, separadores, portadas o protectores. Su flexibilidad y transparencia la hacen versátil para proyectos en la oficina, la escuela o el hogar. ¡Añade un toque profesional a tus documentos con esta hoja de PVC!",
+      price: "$19.99",   
+      img: hoja_pvc
     },
   ];
