@@ -228,7 +228,7 @@ export const ProductsData = [
       title: "Pegamento Kores Silikon Glue ",
       shortDescription:"Garantiza una unión resistente y duradera en superficies como papel, cartón, foami y plástico.",
       description: "El pegamento Kores Silikon Glue es un adhesivo versátil y de alta calidad, formulado con silicona para ofrecer una adherencia excepcional en múltiples materiales. Con una presentación de 30 gramos (29 ml), este pegamento es perfecto tanto para uso doméstico como profesional, siendo indispensable en oficinas, escuelas y talleres de manualidades.",
-      price: "$19.99",
+      price: "1,50",
       img: silikon_glue
     },
     {
@@ -352,7 +352,7 @@ export const ProductsData = [
       img: hojas_adesivas
     },
     {
-      id: 30,
+      id: 31,
       title: "Hoja Tamaño Carta en PVC",
       shortDescription:"Organiza y protege tus documentos con esta hoja de PVC transparente. Ideal para crear etiquetas, separadores o cubiertas personalizadas.",
       description: "Maximiza la organización y la presentación de tus documentos con nuestra hoja de PVC transparente tamaño carta. Esta lámina duradera es perfecta para crear etiquetas, separadores, portadas o protectores. Su flexibilidad y transparencia la hacen versátil para proyectos en la oficina, la escuela o el hogar. ¡Añade un toque profesional a tus documentos con esta hoja de PVC!",
