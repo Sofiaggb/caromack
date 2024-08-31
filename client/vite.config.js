@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // base:"https://Sofiaggb.github.io/caromack"
-  // build: {
-  //   outDir: 'dist',
-  // },
-  // server: {
-  //   historyApiFallback: true,
-  // },
+  build: {
+    outDir: 'dist',
+  },
+  server: {
+    historyApiFallback: true,
+  },
 })
