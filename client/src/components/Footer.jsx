@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <div>
-      <Link href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche"
+      <Link to={"https://wa.me/584147011631"}
         className=" fixed w-16 h-16 bottom-10 right-10 bg-[#25D366] transition-colors 
                    hover:bg-[#128C7E] focus:outline-none focus-visible:ring-2 
                    focus-visible:ring-[#25D366] focus-visible:ring-offset-2 text-white

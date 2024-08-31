@@ -33,7 +33,7 @@ const Products = () => {
                       {product.shortDescription}
                     </p>
                     <div className="flex items-center justify-between">
-                      <span className="font-bold">${product.price} c/u</span>
+                      {/* <span className="font-bold">${product.price} c/u</span> */}
                       <span
                         className="relative inline-flex items-center justify-center
                          whitespace-nowrap text-sm font-medium ring-offset-background

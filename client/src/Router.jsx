@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home"
 import { ProductPage } from "./pages/ProductPage";
 import Error from "./pages/Error";
+import FormProduct from "./pages/FormProduct";
 
 
 const Layout = () => {
@@ -39,7 +40,12 @@ export const router = createBrowserRouter([
                 path: "/product/:id",
                 element: <ProductPage />
             },
+            
         ]
+    },
+    {
+        path: "/form",
+        element: <FormProduct />
     },
     {
         path: "*",
