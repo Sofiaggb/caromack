@@ -51,6 +51,8 @@ export const router = createBrowserRouter([
         path: "*",
         element: <Error />, // Ruta para manejar 404
     },
-], {
-    basename: "/caromack",
-});
+], 
+// {
+//     basename: "/caromack",
+// }
+);
