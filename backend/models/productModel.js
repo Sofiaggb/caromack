@@ -22,7 +22,8 @@ const productShema = new mongoose.Schema ({
         require: true,
     },
     colors:{
-        type: String
+        type: [String],
+        default: []
     },
     image:{
         public_id: String,
@@ -30,5 +31,5 @@ const productShema = new mongoose.Schema ({
     },
 })
 
-const ProductModel = mongoose.models('products', productShema)
+const ProductModel = mongoose.model('products', productShema)
 export default ProductModel

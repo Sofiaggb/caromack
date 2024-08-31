@@ -141,10 +141,10 @@ export const ProductPage = () => {
                 <h1 className="text-2xl font-bold tracking-tight sm:text-4xl md:text-5xl xl:text-[3rem] 2xl:text-[3.75rem]">
                   {product.title}
                 </h1>
-                <div className="grid gap-2">
+                {/* <div className="grid gap-2">
                  
                   <p className="font-bold text-green-600 text-xl">$59.99</p>
-                </div>
+                </div> */}
                 <h2 className="text-2xl font-bold">Descripción</h2>
                 <p className=" text-lg">
                   {product.description}
