@@ -1,5 +1,6 @@
 import {
-    createBrowserRouter,
+    // createBrowserRouter,
+    createHashRouter,
     Outlet,
     ScrollRestoration
 } from "react-router-dom";
@@ -26,7 +27,7 @@ const Layout = () => {
     )
 }
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
     {
         path: "/",
         element: <Layout />,
