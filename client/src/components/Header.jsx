@@ -1,10 +1,23 @@
+import { useState } from "react";
 import logo from "../assets/img/logo.png"
 import { NavLink, useLocation } from "react-router-dom"
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation();
   const isHomePage = location.pathname === '/';
   const textColor = isHomePage ? 'text-white' : 'text-black';
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  }
+
+  const handleMenuClick = () => {
+    // Solo cierra el menú si está abierto (modo móvil)
+    if (menuOpen) {
+      toggleMenu();
+    }
+  };
 
   return (
     <div>
@@ -17,25 +30,33 @@ const Header = () => {
           <span className="text-xl font-bold">Caromack C. A.</span>
         </NavLink>
 
-        <nav className="hidden md:flex items-center gap-6">
-          <NavLink to={'/'} className="relative group" >
+        <nav className={`${menuOpen ? "absolute bg-white w-full top-0 left-0 text-black flex flex-col space-y-4 py-10" 
+         : "hidden" } 
+                        md:flex items-center gap-6`}>
+          <NavLink to={'/'} className="relative group" onClick={handleMenuClick}>
             Inicio
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-orange-500
              transition-all duration-300 group-hover:w-full"></span>
           </NavLink>
-          <NavLink to={'#products'} className="relative group" >
+          <NavLink to={'#products'} className="relative group" onClick={handleMenuClick}>
             Productos
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-orange-500
              transition-all duration-300 group-hover:w-full"></span>
           </NavLink>
-          <NavLink to={'/#contact'} className="relative group">
+          <NavLink to={'/#contact'} className="relative group" onClick={handleMenuClick}>
             Contáctanos
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-orange-500
              transition-all duration-300 group-hover:w-full"></span>
           </NavLink>
         </nav>
 
-        <button className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 md:hidden">
+        <button
+        onClick={toggleMenu}
+         className={`inline-flex items-center justify-center whitespace-nowrap text-sm font-medium 
+        ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2
+         focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 
+         border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3
+          md:hidden z-50 ${ menuOpen ? "text-black" : "text-white"} `}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
