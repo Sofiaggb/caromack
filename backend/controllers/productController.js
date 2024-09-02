@@ -43,9 +43,16 @@ const controllers = {
         try {
             const value = req.params.search;
 
-            const serch = await ProductModel.find({
-                
+            const search = await ProductModel.find({
+                title:{"$regex": value, "$options": 'i'}
             })
+
+            if(search.length == 0) return res.status(404).json({
+                message: "Lo sentimos, no hemos encontrado el producto que deseas. "
+             });
+       
+             res.status(200).json(search);
+
         } catch (error) {
             return res.status(500).send({
                 message: error.message
