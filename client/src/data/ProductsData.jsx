@@ -29,8 +29,12 @@ import bombillo from "../assets/img/products/bombillo.png"
 import carpeta_pvc from "../assets/img/products/carpeta_pvc.jpg"
 import hojas_adesivas from "../assets/img/products/hojas_adesivas.jpeg"
 import hoja_pvc from "../assets/img/products/hoja_pvc.jpg"
-
-
+import resma_hilo from "../assets/img/products/resma_hilo.png"
+import resma_carta_oficio from "../assets/img/products/resma_carta_oficio.jpeg"
+import hoja_continua from "../assets/img/products/hoja_continua.jpeg"
+import carpeta_marron from "../assets/img/products/carpeta_marron.jpeg"
+import carpeta_lomo_ancho from "../assets/img/products/carpeta_lomo_ancho.jpg"
+import gancho_carpeta from "../assets/img/products/gancho_carpeta.jpg"
 
 export const ProductsData = [
   {
@@ -358,5 +362,53 @@ export const ProductsData = [
       description: "Maximiza la organización y la presentación de tus documentos con nuestra hoja de PVC transparente tamaño carta. Esta lámina duradera es perfecta para crear etiquetas, separadores, portadas o protectores. Su flexibilidad y transparencia la hacen versátil para proyectos en la oficina, la escuela o el hogar. ¡Añade un toque profesional a tus documentos con esta hoja de PVC!",
       price: "$19.99",   
       img: hoja_pvc
+    },
+    {
+      id: 32,
+      title: "Resma de papel Carta, Oficio y ExtraOficio Reprograf",
+      shortDescription:"La resma de papel Reprograf está disponible en tamaños Carta, Oficio y ExtraOficio, ofreciendo 500 hojas de alta calidad.",
+      description: "La resma de papel Reprograf es una opción versátil y de alta calidad para todas tus necesidades de impresión en la oficina. Disponible en tres tamaños: Carta (21.6 x 27.9 cm), Oficio (21.6 x 35.6 cm) y ExtraOficio, cada resma contiene 500 hojas de papel blanco brillante, elaborado 100% con pulpa virgen de caña de azúcar12. Este papel se somete a un proceso de extra blanqueado para asegurar un contraste óptimo entre el texto y el fondo, lo que resulta en impresiones claras y legibles.",
+      price: "$19.99",   
+      img: resma_carta_oficio
+    },
+    {
+      id: 33,
+      title: "Resmilla de Papel Hilo Tipo Carta - KORES",
+      shortDescription:"La resma de papel hilo tipo carta contiene hojas de alta calidad, ideales para impresiones nítidas y profesionales en cualquier entorno de oficina.",
+      description: "El papel hilo se caracteriza por su textura suave y su capacidad para absorber la tinta de manera uniforme, lo que garantiza que cada impresión sea nítida y legible. Además, su tamaño estándar de carta (21.6 cm x 27.9 cm) lo hace compatible con la mayoría de las impresoras y fotocopiadoras.",
+      price: "$19.99",   
+      img: resma_hilo
+    },
+    {
+      id: 34,
+      title: "Hoja Forma Continua marca Dispapeles",
+      shortDescription:"La hoja de forma continua Dispapeles es ideal para impresiones contables y administrativas, asegurando una alimentación continua y eficiente en impresoras matriciales.",
+      description: "El papel de forma continua Dispapeles se caracteriza por su alta calidad y su capacidad para manejar grandes volúmenes de impresión sin problemas de alimentación. Las hojas tienen perforaciones longitudinales y huecos de alimentación que aseguran un anclaje perfecto en los pines de arrastre de la impresora, facilitando una impresión continua y sin interrupciones12. Además, su peso de 60 gramos por metro cuadrado proporciona la resistencia necesaria para evitar rasgaduras y arrugas durante el uso.",
+      price: "$19.99",   
+      img: hoja_continua
+    },
+    {
+      id: 35,
+      title: "Carpeta de Fibra Marron - Ofimak",
+      shortDescription:"La carpeta de fibra marrón Ofimak es resistente y duradera, ideal para organizar documentos importantes en la oficina o en casa.",
+      description: "La carpeta de fibra marrón marca Ofimak está diseñada para ofrecer una solución eficiente y duradera para el almacenamiento y organización de documentos. Fabricada con cartón grueso de alta calidad, esta carpeta proporciona una excelente resistencia y durabilidad, asegurando que tus documentos estén protegidos y bien organizados.",
+      price: "$19.99",   
+      img: carpeta_marron
+    },
+    {
+      id: 36,
+      title: "Carpeta Lomo Ancho marca Ofimak/Aktiva",
+      shortDescription:"La carpeta de lomo ancho Ofimak/Aktiva es ideal para organizar y proteger documentos importantes, ofreciendo durabilidad y un diseño profesional.",
+      description: "La carpeta de lomo ancho marca Ofimak/Aktiva es una solución robusta y eficiente para el almacenamiento y organización de documentos en la oficina o en casa. Fabricada con materiales de alta calidad, esta carpeta está diseñada para soportar un uso intensivo y proteger tus documentos de daños.",
+      price: "$19.99",   
+      img: carpeta_lomo_ancho
+    },
+    {
+      id: 35,
+      title: "Gancho para Carpeta marca Ofimak/Printa",
+      shortDescription:"El gancho para carpeta marca Ofimak/Printa es ideal para asegurar documentos en carpetas, ofreciendo una sujeción firme y duradera.",
+      description: "El gancho para carpeta marca Ofimak/Printa es una herramienta esencial para mantener tus documentos organizados y seguros dentro de carpetas. Diseñado para un uso eficiente en entornos de oficina, este gancho está fabricado con materiales de alta calidad que garantizan su durabilidad y resistencia.",
+      price: "$19.99",   
+      img: gancho_carpeta
     },
   ];
