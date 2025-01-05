@@ -14,6 +14,7 @@ import Home from "./pages/Home"
 import { ProductPage } from "./pages/ProductPage";
 import Error from "./pages/Error";
 import FormProduct from "./pages/FormProduct";
+import CategoryPage from "./pages/CategoryPage";
 
 
 const Layout = () => {
@@ -38,10 +39,14 @@ export const router = createHashRouter([
                 // loader: ProductsData
             },
             {
+                path: "/category/:category",
+                element: <CategoryPage />
+            },
+            {
                 path: "/product/:id",
                 element: <ProductPage />
             },
-            
+         
         ]
     },
     {

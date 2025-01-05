@@ -37,6 +37,26 @@ import carpeta_lomo_ancho from "../assets/img/products/carpeta_lomo_ancho.jpg"
 import gancho_carpeta from "../assets/img/products/gancho_carpeta.jpg"
 import corrector_studmark from "../assets/img/products/corrector_studmark.jpg"
 
+import agenda from "../assets/img/products/agenda.jpg"
+import miniagenda_pocket from "../assets/img/products/miniagenda_pocket.jpeg"
+import boligrafos from "../assets/img/products/boligrafos.jpeg"
+import llavero_personalizado from "../assets/img/products/llavero_personalizado.jpg"
+import tula from "../assets/img/products/tula.jpg"
+import bombas_decorativas from "../assets/img/products/bombas_decorativas.jpeg"
+import resaltadores_vibrant from "../assets/img/products/resaltadores_vibrant.jpeg"
+import memos_adhesivos from "../assets/img/products/memos_adhesivos.jpg"
+import bolso_ecologico from "../assets/img/products/bolso_ecologico.jpg"
+import portapendon_rollup from "../assets/img/products/portapendon_rollup.jpeg"
+import gorras_personalizadas from "../assets/img/products/gorras_personalizadas.jpg"
+import abanico_decorativo from "../assets/img/products/abanico_decorativo.jpg"
+import calendario from "../assets/img/products/calendario.jpeg"
+import termo from "../assets/img/products/termo.jpg"
+import mug_personalizado from "../assets/img/products/mug_personalizado.jpeg"
+import minimug_portatil from "../assets/img/products/minimug_portatil.jpg"
+import sombrilla from "../assets/img/products/sombrilla.jpg"
+import padmouse from "../assets/img/products/padmouse.jpeg"
+
+
 export const ProductsData = [
   {
       id: 1,
@@ -458,4 +478,171 @@ export const ProductsData = [
       price: "$19.99",   
       img: corrector_studmark
     },
+
+
+
+
+    {
+      id: 40,
+      category: "Papelería Creativa",
+      title: "Agenda",
+      shortDescription: "Organiza tus días con estilo y funcionalidad con nuestra Agenda Personalizable, diseñada para adaptarse a tus necesidades diarias.",
+      description: "Descubre la Agenda Personalizable, el compañero ideal para tus actividades diarias. Con su diseño elegante y moderno, esta agenda cuenta con páginas de alta calidad, calendarios mensuales y semanales, y espacio adicional para notas. Perfecta para profesionales, estudiantes o cualquier persona que valore la organización. Disponible en varios colores y tamaños, esta agenda es el regalo ideal para empezar el año con el pie derecho.",
+      price: "$14.99",
+      img: agenda
+    },
+    {
+      id: 41,
+      category: "Papelería Creativa",
+      title: "Miniagenda Pocket",
+      shortDescription: "Lleva tu organización a cualquier lugar con nuestra Miniagenda Pocket, compacta y práctica.",
+      description: "La Miniagenda Pocket es perfecta para quienes buscan una herramienta de planificación compacta y funcional. Con un diseño portátil, páginas de alta calidad y secciones organizadas, esta miniagenda es ideal para mantener tus actividades en orden, estés donde estés.",
+      price: "$8.99",
+      img: miniagenda_pocket
+    },
+    {
+      id: 42,
+      category: "Papelería Creativa",
+      title: "Bolígrafos",
+      shortDescription: "Escribe con estilo y comodidad con nuestros Bolígrafos, ideales para cualquier ocasión.",
+      description: "Los Bolígrafos combinan diseño sofisticado con un flujo de tinta suave y constante. Perfectos para uso diario o como un regalo especial, están disponibles en varios colores y estilos para adaptarse a tu personalidad.",
+      price: "$2.50",
+      img:boligrafos
+    },
+    {
+      id: 43,
+      category: "Papelería Creativa",
+      title: "Llavero Personalizado",
+      shortDescription: "Lleva un detalle único contigo con nuestros Llaveros Personalizados.",
+      description: "Nuestros Llaveros Personalizados son el accesorio ideal para expresar tu estilo. Disponibles en diversos diseños y materiales, estos llaveros son perfectos como regalo o recuerdo especial. Personalízalos con nombres, logos o mensajes.",
+      price: "$5.99",
+      img: llavero_personalizado
+    },
+    {
+      id: 44,
+      category: "Papelería Creativa",
+      title: "Tula",
+      shortDescription: "Transporta tus pertenencias cómodamente con nuestra Tula, ligera y resistente.",
+      description: "La Tula es perfecta para actividades al aire libre, gimnasio o uso diario. Fabricada con materiales de alta calidad, cuenta con un diseño ergonómico y espacioso, disponible en varios colores y estilos.",
+      price: "$12.99",
+      img: tula
+    },
+    {
+      id: 45,
+      category: "Papelería Creativa",
+      title: "Bombas Decorativas",
+      shortDescription: "Añade un toque de color a tus eventos con nuestras Bombas Decorativas.",
+      description: "Ideales para celebraciones, las Bombas Decorativas están disponibles en una amplia variedad de colores y tamaños. Fabricadas con materiales biodegradables, son la opción perfecta para decorar cualquier ocasión especial.",
+      price: "$0.99",
+      img: bombas_decorativas
+    },
+    {
+      id: 46,
+      category: "Papelería Creativa",
+      title: "Resaltadores",
+      shortDescription: "Destaca lo más importante con los Resaltadores, de colores brillantes y duraderos.",
+      description: "Los Resaltadores Vibrant son la elección perfecta para estudiantes y profesionales. Su tinta de alta calidad no traspasa el papel, y su diseño ergonómico asegura comodidad durante el uso. Disponibles en paquetes de 5 y 10 unidades.",
+      price: "$7.99",
+      img: resaltadores_vibrant
+    },
+    {
+      id: 47,
+      category: "Papelería Creativa",
+      title: "Memorándums Adhesivos",
+      shortDescription: "Organiza tus ideas con facilidad usando nuestros Memorándums Adhesivos.",
+      description: "Los Memorándums Adhesivos son una herramienta indispensable para la organización diaria. Disponibles en varios colores y tamaños, estos memos se adhieren fácilmente a cualquier superficie, ayudándote a recordar las tareas importantes.",
+      price: "$3.99",
+      img: memos_adhesivos
+    },
+    {
+      id: 48,
+      category: "Papelería Creativa",
+      title: "Bolso Ecológico",
+      shortDescription: "Contribuye al medio ambiente con nuestro Bolso Ecológico reutilizable.",
+      description: "Fabricado con materiales sostenibles, el Bolso Ecológico es perfecto para compras, eventos o uso diario. Su diseño resistente y moderno lo hace una excelente alternativa a las bolsas plásticas.",
+      price: "$9.99",
+      img: bolso_ecologico
+    },
+    {
+      id: 49,
+      category: "Papelería Creativa",
+      title: "Portapendón Roll-Up",
+      shortDescription: "Presenta tu marca con estilo usando el Portapendón Roll-Up.",
+      description: "El Portapendón Roll-Up es una herramienta de promoción ideal para ferias, eventos y puntos de venta. Fácil de transportar y montar, garantiza un impacto visual profesional.",
+      price: "$59.99",
+      img: portapendon_rollup
+    },
+    {
+      id: 50,
+      category: "Papelería Creativa",
+      title: "Gorras Bordadas y Sublimadas",
+      shortDescription: "Protege tu estilo con nuestras Gorras Bordadas y Sublimadas.",
+      description: "Nuestras gorras están diseñadas para brindar comodidad y estilo. Personalízalas con bordados o sublimaciones de alta calidad para promocionar tu marca o como un regalo único.",
+      price: "$15.99",
+      img: gorras_personalizadas
+    },
+    {
+      id: 51,
+      category: "Papelería Creativa",
+      title: "Abanico Decorativo",
+      shortDescription: "Mantente fresco y elegante con nuestros Abanicos Decorativos.",
+      description: "Perfectos para eventos o uso diario, los Abanicos Decorativos combinan funcionalidad y estilo. Disponibles en diversos diseños y colores.",
+      price: "$6.99",
+      img: abanico_decorativo
+    },
+    {
+      id: 52,
+      category: "Papelería Creativa",
+      title: "Calendario",
+      shortDescription: "Mantén tus fechas importantes siempre a la vista con nuestro Calendario.",
+      description: "El Calendario combina funcionalidad y diseño moderno. Ideal para oficinas o el hogar, cuenta con secciones para notas y planificación.",
+      price: "$9.99",
+      img: calendario
+    },
+    {
+      id: 53,
+      category: "Papelería Creativa",
+      title: "Termo",
+      shortDescription: "Mantén tus bebidas a la temperatura ideal con nuestro Termo personalizable.",
+      description: "Nuestro Termo es perfecto para mantener tus bebidas frías o calientes por más tiempo. Disponible en distintos materiales, como plástico o acero inoxidable, y con opciones de personalización, este termo es un accesorio versátil y único para uso diario o como regalo especial.",
+      price: "$24.99",
+      img: termo
+    },    
+    {
+      id: 54,
+      category: "Papelería Creativa",
+      title: "Mug Personalizado",
+      shortDescription: "Disfruta tu bebida favorita con estilo usando un Mug Personalizado.",
+      description: "Nuestros Mugs Personalizados son ideales para regalar o para uso diario. Personalízalos con diseños únicos, nombres o mensajes especiales.",
+      price: "$11.99",
+      img: mug_personalizado
+    },
+    {
+      id: 55,
+      category: "Papelería Creativa",
+      title: "Minimug Portátil",
+      shortDescription: "La comodidad en tamaño compacto con nuestro Minimug Portátil.",
+      description: "El Minimug Portátil es perfecto para quienes buscan una solución ligera y práctica para disfrutar sus bebidas en movimiento.",
+      price: "$8.99",
+      img: minimug_portatil
+    },
+    {
+      id: 56,
+      category: "Papelería Creativa",
+      title: "Sombrilla",
+      shortDescription: "Protege tu día con estilo con nuestra Sombrilla.",
+      description: "La Sombrilla es fácil de transportar y resistente al viento. Con diseños modernos, es perfecta para cualquier clima.",
+      price: "$14.99",
+      img: sombrilla
+    },
+    {
+      id: 57,
+      category: "Papelería Creativa",
+      title: "Padmouse Antideslizante",
+      shortDescription: "Mejora tu experiencia en el escritorio con nuestro Padmouse Antideslizante.",
+      description: "Diseñado para ofrecer un control preciso del mouse, el Padmouse Antideslizante cuenta con una base resistente y superficie suave para máxima comodidad.",
+      price: "$6.99",
+      img: padmouse
+    }
+    
   ];
