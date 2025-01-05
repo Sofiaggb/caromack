@@ -144,7 +144,7 @@ const Contact = () => {
 
 
 
-              <form className=" w-full m-auto pr-5 text-center" ref={formRef} onSubmit={sendEmail}>
+              <form className=" w-full m-auto pr-5  text-center" ref={formRef} onSubmit={sendEmail}>
                 <h2 className="text-left text-3xl font-bold mb-3 sm:mb-8 ">
                   Contáctate con Nosotros
                 </h2>
