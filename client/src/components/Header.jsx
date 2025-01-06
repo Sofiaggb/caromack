@@ -56,7 +56,7 @@ const Header = () => {
         ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2
          focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 
          border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3
-          md:hidden z-50 ${ menuOpen ? "text-black" : "text-white"} `}>
+          md:hidden z-50 ${ menuOpen ? "text-black" : textColor} `}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
