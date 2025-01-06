@@ -22,7 +22,7 @@ const CategoryPage = () => {
               <img
                 src={product.img}
                 alt={product.title}
-                className="object-cover rounded-t-lg h-52 w-full"
+                className="object-cover rounded-t-lg h-52 m-auto"
               />
               <div className="p-4">
                 <h3 className="text-lg font-medium mb-2">{product.title}</h3>
