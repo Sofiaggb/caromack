@@ -68,6 +68,7 @@ import visera_subliminada from "../assets/img/products/visera_subliminada.jpg"
 import cartuchera from "../assets/img/products/cartuchera.jpg"
 import kit_higiene_personalizado from "../assets/img/products/kit_higiene_personalizado.jpg"
 import vela_aromatica_personalizada from "../assets/img/products/vela_aromatica_personalizada.jpg"
+import globos_personalizados from "../assets/img/products/globos_personalizados.jpg"
 import resaltadores_colores from "../assets/img/products/resaltadores_colores.jpg"
 import paragua from "../assets/img/products/paragua.jpg"
 import roll_up from "../assets/img/products/roll_up.jpg"
@@ -270,7 +271,7 @@ export const ProductsData = [
     },
     {
       id: 12,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Engrapadora Stapler Ofimack",
       shortDescription:"Diseñada para grapas planas y corrugadas. Su capacidad es de 22 hojas.",
       description: "Fabricada con materiales duraderos, esta engrapadora está diseñada para ofrecer un rendimiento óptimo y una larga vida útil. Es capaz de manejar diferentes formas de grapas, tanto lisas como corrugadas, y admite grapas de tamaños 24/6, 26/6",
@@ -279,7 +280,7 @@ export const ProductsData = [
     },
     {
       id: 13,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Pegamento Kores Silikon Glue ",
       shortDescription:"Garantiza una unión resistente y duradera en superficies como papel, cartón, foami y plástico.",
       description: "El pegamento Kores Silikon Glue es un adhesivo versátil y de alta calidad, formulado con silicona para ofrecer una adherencia excepcional en múltiples materiales. Con una presentación de 30 gramos (29 ml), este pegamento es perfecto tanto para uso doméstico como profesional, siendo indispensable en oficinas, escuelas y talleres de manualidades.",
@@ -288,7 +289,7 @@ export const ProductsData = [
     },
     {
       id: 14,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Clips Mariposa Ofiart",
       shortDescription:"Sujetapapeles metálicos de alta calidad, diseñados para unir documentos de manera segura y ordenada.",
       description: "Los Clips Mariposa Ofiart N°1 son una solución eficiente y elegante para la organización de documentos. Fabricados con metal de alta calidad, estos clips aseguran una sujeción firme y duradera sin dañar los papeles. Su diseño distintivo en forma de mariposa no solo añade un toque estético, sino que también facilita la inserción y extracción de los papeles, evitando desgarros y arrugas.",
@@ -297,7 +298,7 @@ export const ProductsData = [
     },
     {
       id: 15,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Clips Wingo de Metal",
       shortDescription:"Un sujetapapeles resistente y duradero, ideal para mantener tus documentos organizados y seguros en oficinas, escuelas y hogares.",
       description: "Es una solución eficiente y robusta para la organización de documentos. Fabricado con metal de alta calidad, este clip garantiza una sujeción firme y duradera sin dañar tus papeles. Su diseño ergonómico facilita la inserción y extracción de documentos, proporcionando una experiencia de uso cómoda y efectiva.",
@@ -306,7 +307,7 @@ export const ProductsData = [
     },
     {
       id: 16,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Tabla De Inventario Ofimak",
       shortDescription:"Es una herramienta eficiente y práctica para gestionar y controlar el inventario de bienes y suministros en oficinas, almacenes y negocios.",
       description: "La Tabla de Inventario Ofimak es un dispositivo esencial para la gestión efectiva de inventarios en cualquier entorno de trabajo. Diseñada con materiales duraderos y un formato claro, esta tabla permite a los usuarios registrar y controlar con precisión los bienes y suministros disponibles.",
@@ -315,7 +316,7 @@ export const ProductsData = [
     },
     {
       id: 17,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Pegamento Escolar Blanco Kores",
       shortDescription:"Un adhesivo no tóxico de secado rápido, ideal para proyectos escolares y manualidades.",
       description: "El pegamento escolar blanco Kores es un adhesivo versátil y seguro, diseñado específicamente para uso escolar y manualidades. Formulado sin sustancias tóxicas, es completamente seguro para los niños y adecuado para una variedad de aplicaciones. Este pegamento ofrece una unión fuerte y duradera en materiales como papel, cartón, fotos y otros artículos ligeros, convirtiéndolo en una herramienta esencial para proyectos escolares y actividades creativas.",
@@ -324,7 +325,7 @@ export const ProductsData = [
     },
     {
       id: 18,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Resaltadores Ofimak Colores Varios",
       shortDescription:"Herramientas de marcación vibrantes y duraderas, ideales para subrayar y destacar textos.",
       description: "Los resaltadores Ofimak en colores variados (rosado, naranja, azul, verde y amarillo) son una excelente opción para quienes buscan una herramienta eficiente y de alta calidad para marcar y destacar información importante. Estos resaltadores están diseñados con tinta fluorescente de alta visibilidad que garantiza una marcación clara y duradera. El diseño ergonómico y el trazo suave permiten un uso cómodo, ideal para largas sesiones de estudio o trabajo.",
@@ -333,7 +334,7 @@ export const ProductsData = [
     },
         {
       id: 19,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Resaltadores Fluorescentes Printa",
       shortDescription:"En colores rosa y amarillo son útiles en oficinas para resaltar datos cruciales en informes, documentos y presentaciones.",
       description: "Los resaltadores fluorescentes Printa en colores rosa y amarillo son herramientas esenciales para quienes buscan una manera eficiente de resaltar y organizar información importante. Diseñados con tinta fluorescente de alta visibilidad, estos resaltadores aseguran una marcación clara y duradera. El diseño ergonómico y la punta biselada permiten un trazo suave y preciso, adaptándose a diversas necesidades de marcado.",
@@ -342,7 +343,7 @@ export const ProductsData = [
     },
     {
       id: 20,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Lapíz de Grafito Kores",
       shortDescription:"Herramientas esenciales para escribir y dibujar, ofreciendo una calidad de trazo suave y preciso.",
       description: "Cada lápiz está equipado con una mina de alta calidad que proporciona un trazo suave y uniforme, asegurando precisión y facilidad en el uso. La resistencia de la mina reduce la rotura, prolongando la vida útil del lápiz. Además, cada lápiz incluye una goma de borrar integrada, permitiendo correcciones rápidas y eficientes. Presentados en una caja de 12 unidades, estos lápices son perfectos para estudiantes, profesionales y artistas que buscan herramientas confiables y duraderas.",
@@ -351,7 +352,7 @@ export const ProductsData = [
     },
     {
       id: 21,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Bolígrafo Kores K-Pen Super Slide",
       shortDescription:"Presentado en una caja de 12 unidades, ofrece una escritura suave y precisa con su diseño ergonómico y tinta de alta calidad.",
       description: "Cada bolígrafo en esta caja de 12 unidades está equipado con un sistema de tinta de alta calidad que asegura un flujo continuo y sin interrupciones, resultando en una escritura clara y nítida. El diseño ergonómico triangular con grip garantiza un agarre cómodo, reduciendo la fatiga durante el uso prolongado. ",
@@ -360,7 +361,7 @@ export const ProductsData = [
     },
     {
       id: 22,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Papel Fotográfico Profesional Kores",
       shortDescription:"El papel fotográfico Kores para impresoras de inyección de tinta, en tamaño carta (216 x 279 mm) y con un gramaje de 180 g/m².",
       description: " Cada paquete contiene 50 hojas de papel tamaño carta (216 x 279 mm) con un gramaje de 180 g/m², ofreciendo una superficie robusta y duradera para la impresión de fotografías y otros proyectos gráficos. El acabado brillante de cada hoja proporciona colores vibrantes y detalles nítidos, mejorando significativamente la calidad visual de las impresiones.",
@@ -369,7 +370,7 @@ export const ProductsData = [
     },
     {
       id: 23,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Notas Adhesivas Kores",
       shortDescription:"Las notas adhesivas Kores, en tamaño 75 mm x 75 mm (3 pulgadas x 3 pulgadas), vienen en un paquete de 400 hojas en colores pastel surtidos.",
       description: "Las notas adhesivas Kores son una herramienta esencial para la organización y la toma de notas, diseñadas en un práctico tamaño de 75 mm x 75 mm (3 pulgadas x 3 pulgadas). Cada paquete contiene 400 hojas en una atractiva variedad de colores pastel surtidos, proporcionando una solución visualmente agradable para recordatorios, listas de tareas y mensajes rápidos.",
@@ -378,7 +379,7 @@ export const ProductsData = [
     },
     {
       id: 24,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Marcador De Pizarra Acrílica Ofimak (azul y rojo)",
       shortDescription:"Marcadores para pizarra de la marca Ofimak con punta redonda, presentados en un empaque que contiene 12 unidades.",
       description: "El producto es un conjunto de marcadores para pizarra de la marca Ofimak, específicamente diseñados para uso en superficies de pizarras blancas. Los marcadores cuentan con una punta redonda que facilita la escritura suave y uniforme. El empaque incluye 12 marcadores en colores azul y rojo, ideal para un uso prolongado en entornos educativos, oficinas o cualquier lugar que requiera escritura en pizarras.",
@@ -387,7 +388,7 @@ export const ProductsData = [
     },
     {
       id: 25,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Marcador Permanente Ofimack (azul, negro y rojo)",
       shortDescription:"Marcadores permanentes Ofimak con punta redonda de 4mm para escritura duradera y precisa.",
       description: "Los marcadores permanentes Ofimak modelo 806 con punta redonda de 4mm, perfectos para profesionales y estudiantes que buscan calidad y durabilidad en su material de escritura. Este paquete contiene 12 piezas en colores vibrantes como azul profundo, negro intenso y rojo brillante que garantizan una aplicación suave y resistente al agua. Ideal para todo tipo de superficies; estos marcadores son la elección acertada para destacar sus ideas con claridad y permanencia.",
@@ -396,7 +397,7 @@ export const ProductsData = [
     },
     {
       id: 26,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Cartlina Kores Tamaño Carta",
       shortDescription:"Paquete de cartulina amarilla Kores, ideal para proyectos creativos y manualidades.",
       description: "La cartulina Kores, el complemento perfecto para cualquier proyecto artístico o escolar.  La robustez del papel garantiza durabilidad mientras que su superficie lisa asegura una aplicación uniforme de adhesivos, pinturas y otros materiales. Con la confianza de la marca Kores, esta cartulina es una elección excelente para trabajos manuales, presentaciones escolares o cualquier actividad que requiera un toque de color y originalidad.",
@@ -405,7 +406,7 @@ export const ProductsData = [
     },
     {
       id: 29,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Carpeta oficio PVC con Ligas",
       shortDescription:"Esta carpeta de PVC en colores verde, transparente y azul cuenta con ligas elásticas para mantener tus papeles seguros y ordenados.",
       description: "Optimiza tu espacio de trabajo con nuestra carpeta de oficio en PVC. Disponible en tres colores vibrantes (verde, transparente y azul), esta carpeta combina funcionalidad y diseño. Las ligas elásticas mantienen tus documentos en su lugar, mientras que el material resistente protege contra rasgaduras y derrames. Ideal para profesionales y estudiantes, esta carpeta es una inversión inteligente para mantener tu vida organizada.",
@@ -414,7 +415,7 @@ export const ProductsData = [
     },
     {
       id: 30,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Hojas Autoadhesivas Tamaño Carta",
       shortDescription:"Imprime tus diseños y pégales en documentos, frascos o productos.",
       description: "Optimiza tu organización con nuestras hojas autoadhesivas tamaño carta. Estas hojas son perfectas para imprimir etiquetas personalizadas, stickers o calcomanías. El papel adhesivo de alta calidad garantiza una fijación segura en documentos, cuadernos o productos. Ya sea en la oficina o en casa, estas hojas son versátiles y fáciles de desprender. ¡Dale un toque creativo a tus proyectos con estas hojas autoadhesivas!",
@@ -423,7 +424,7 @@ export const ProductsData = [
     },
     {
       id: 31,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Hoja Tamaño Carta en PVC",
       shortDescription:"Organiza y protege tus documentos con esta hoja de PVC transparente. Ideal para crear etiquetas, separadores o cubiertas personalizadas.",
       description: "Maximiza la organización y la presentación de tus documentos con nuestra hoja de PVC transparente tamaño carta. Esta lámina duradera es perfecta para crear etiquetas, separadores, portadas o protectores. Su flexibilidad y transparencia la hacen versátil para proyectos en la oficina, la escuela o el hogar. ¡Añade un toque profesional a tus documentos con esta hoja de PVC!",
@@ -432,7 +433,7 @@ export const ProductsData = [
     },
     {
       id: 32,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Resma de papel Carta, Oficio y ExtraOficio Reprograf",
       shortDescription:"La resma de papel Reprograf está disponible en tamaños Carta, Oficio y ExtraOficio, ofreciendo 500 hojas de alta calidad.",
       description: "La resma de papel Reprograf es una opción versátil y de alta calidad para todas tus necesidades de impresión en la oficina. Disponible en tres tamaños: Carta (21.6 x 27.9 cm), Oficio (21.6 x 35.6 cm) y ExtraOficio, cada resma contiene 500 hojas de papel blanco brillante, elaborado 100% con pulpa virgen de caña de azúcar12. Este papel se somete a un proceso de extra blanqueado para asegurar un contraste óptimo entre el texto y el fondo, lo que resulta en impresiones claras y legibles.",
@@ -441,7 +442,7 @@ export const ProductsData = [
     },
     {
       id: 33,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Resmilla de Papel Hilo Tipo Carta - KORES",
       shortDescription:"La resma de papel hilo tipo carta contiene hojas de alta calidad, ideales para impresiones nítidas y profesionales en cualquier entorno de oficina.",
       description: "El papel hilo se caracteriza por su textura suave y su capacidad para absorber la tinta de manera uniforme, lo que garantiza que cada impresión sea nítida y legible. Además, su tamaño estándar de carta (21.6 cm x 27.9 cm) lo hace compatible con la mayoría de las impresoras y fotocopiadoras.",
@@ -450,7 +451,7 @@ export const ProductsData = [
     },
     {
       id: 34,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Hoja Forma Continua marca Dispapeles",
       shortDescription:"La hoja de forma continua Dispapeles es ideal para impresiones contables y administrativas, asegurando una alimentación continua y eficiente en impresoras matriciales.",
       description: "El papel de forma continua Dispapeles se caracteriza por su alta calidad y su capacidad para manejar grandes volúmenes de impresión sin problemas de alimentación. Las hojas tienen perforaciones longitudinales y huecos de alimentación que aseguran un anclaje perfecto en los pines de arrastre de la impresora, facilitando una impresión continua y sin interrupciones12. Además, su peso de 60 gramos por metro cuadrado proporciona la resistencia necesaria para evitar rasgaduras y arrugas durante el uso.",
@@ -459,7 +460,7 @@ export const ProductsData = [
     },
     {
       id: 35,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Carpeta de Fibra Marron - Ofimak",
       shortDescription:"La carpeta de fibra marrón Ofimak es resistente y duradera, ideal para organizar documentos importantes en la oficina o en casa.",
       description: "La carpeta de fibra marrón marca Ofimak está diseñada para ofrecer una solución eficiente y duradera para el almacenamiento y organización de documentos. Fabricada con cartón grueso de alta calidad, esta carpeta proporciona una excelente resistencia y durabilidad, asegurando que tus documentos estén protegidos y bien organizados.",
@@ -468,7 +469,7 @@ export const ProductsData = [
     },
     {
       id: 36,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Carpeta Lomo Ancho marca Ofimak/Aktiva",
       shortDescription:"La carpeta de lomo ancho Ofimak/Aktiva es ideal para organizar y proteger documentos importantes, ofreciendo durabilidad y un diseño profesional.",
       description: "La carpeta de lomo ancho marca Ofimak/Aktiva es una solución robusta y eficiente para el almacenamiento y organización de documentos en la oficina o en casa. Fabricada con materiales de alta calidad, esta carpeta está diseñada para soportar un uso intensivo y proteger tus documentos de daños.",
@@ -477,7 +478,7 @@ export const ProductsData = [
     },
     {
       id: 37,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Gancho para Carpeta marca Ofimak/Printa",
       shortDescription:"El gancho para carpeta marca Ofimak/Printa es ideal para asegurar documentos en carpetas, ofreciendo una sujeción firme y duradera.",
       description: "El gancho para carpeta marca Ofimak/Printa es una herramienta esencial para mantener tus documentos organizados y seguros dentro de carpetas. Diseñado para un uso eficiente en entornos de oficina, este gancho está fabricado con materiales de alta calidad que garantizan su durabilidad y resistencia.",
@@ -486,7 +487,7 @@ export const ProductsData = [
     },
     {
       id: 38,
-      category: "Papeleria",
+      category: "Papelería",
       title: "Corrector Studmark",
       shortDescription:"Corrige errores de escritura al instante con el Studmark correction pen 3281, tu aliado perfecto para una corrección rápida y limpia.",
       description: "Presentamos el Studmark correction pen 3281, la herramienta esencial para profesionales y estudiantes que buscan perfección en sus documentos. Con su innovadora fórmula de secado rápido y la nueva zona segura, este bolígrafo de corrección garantiza una aplicación precisa sin desorden. Su diseño ergonómico permite un control total para corregir incluso los errores más pequeños con facilidad. Disponible en paquetes de 12 unidades, el Studmark correction pen es el producto que no puede faltar en tu escritorio.",
@@ -662,7 +663,7 @@ export const ProductsData = [
     
     {
       id: 59,
-      category: "Papeleria Creativa",
+      category: "Papelería Creativa",
       title: "Mini Agenda",
       shortDescription: " Tu compañera perfecta para mantener tus tareas y compromisos bajo control.",
       description: "Portada resistente y estilo elegante la hacen ideal para uso personal o profesional. ¡Organízate con estilo y facilidad!.",
@@ -671,7 +672,7 @@ export const ProductsData = [
     },
     {
       id: 60,
-      category: "Papeleria Creativa",
+      category: "Papelería Creativa",
       title: "Mini Memos",
       shortDescription: "Prácticos y versátiles, ideales para notas rápidas.",
       description: "Diseño compacto y funcional, te permiten anotar ideas, tareas o mensajes importantes al instante or tada resistente y estilo elegante la hacen ideal para uso personal o profesional. ¡Organízate con estilo y facilidad!.",
@@ -680,7 +681,7 @@ export const ProductsData = [
     },
     {
       id: 61,
-      category: "Papeleria Creativa",
+      category: "Papelería Creativa",
       title: "Bolígrafos con luz Led",
       shortDescription: "Elegantes, prácticos y perfectos para uso diario .",
       description: "Este bolígrafo personalizado con un cuerpo resistente y estilo moderno los convierte en un accesorio indispensable.",
@@ -689,7 +690,7 @@ export const ProductsData = [
     },
     {
       id: 62,
-      category: "Papeleria Creativa",
+      category: "Papelería Creativa",
       title: "Bolígrafos táctil para celular",
       shortDescription: "Escribe y navega con un solo bolígrafo.",
       description: "Escribe en papel y navega en pantallas, con punta táctil precisa y diseño ergonómico con logo.",
@@ -698,7 +699,7 @@ export const ProductsData = [
     },
     {
       id: 63,
-      category: "Papeleria Creativa",
+      category: "Papelería Creativa",
       title: "Llaveros personalizados",
       shortDescription: "Diseñados para ser útiles y memorables.",
       description: "Grabados con tu logo, ideales para promover tu marca, perfectos para regalar a clientes o equipos de trabajo.",
@@ -766,7 +767,7 @@ export const ProductsData = [
       shortDescription: "Celebra con estilo.",
       description: "Transforma cualquier evento en una experiencia memorable con nuestros globos personalizados de alta calidad. Fabricados en látex o metalizados, resistentes y con impresión nítida de tu logo, mensaje o diseño corporativo",
       price: "$6.99",
-      img: vela_aromatica_personalizada
+      img: globos_personalizados
     },
     {
       id: 71,
