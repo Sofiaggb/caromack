@@ -1,12 +1,11 @@
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { ProductsData } from "../data/ProductsData";
-import Products from "../components/Products";
 
 export const ProductPage = () => {
   const { id } = useParams()
   const product = ProductsData.find(p => p.id === parseInt(id))
   //  const headers = Object.keys(product.characteristics[0]);
-
+console.log(product)
 
   if (!product) {
     return <div>No se encontro el producto</div>
@@ -138,6 +137,32 @@ export const ProductPage = () => {
               </div>
 
               <div className="flex flex-col items-start space-y-6">
+
+                  <NavLink
+                    className=" relative inline-flex gap-2 items-center justify-end  overflow-hidden rounded
+                    px-8 py-2 h-10 text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                    to={`/category/${product.category}`}
+                  >
+                    <span className=" ">
+                      <svg
+                        className="size-5"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M7 16l-4-4m0 0l4-4m-4 4h18"
+                        />
+                      </svg>
+                    </span>
+
+                    <span className="text-md font-medium transition-all group-hover:ms-4">Volver</span>
+                  </NavLink>
+
                 <h1 className="text-2xl font-bold tracking-tight sm:text-4xl md:text-5xl xl:text-[3rem] 2xl:text-[3.75rem]">
                   {product.title}
                 </h1>
@@ -194,7 +219,6 @@ export const ProductPage = () => {
         }
 
       </main>
-      <Products />
     </div>
   );
 };

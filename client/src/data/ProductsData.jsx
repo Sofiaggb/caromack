@@ -57,6 +57,21 @@ import sombrilla from "../assets/img/products/sombrilla.jpg"
 import padmouse from "../assets/img/products/padmouse.jpeg"
 
 
+import miniagenda from "../assets/img/products/miniagenda.jpg"
+import minimemos from "../assets/img/products/minimemos.jpg"
+import boligrafo_led from "../assets/img/products/boligrafo_led.jpg"
+import boligrafo_tactil_celular from "../assets/img/products/boligrafo_tactil_celular.jpg"
+import llavero_personalizado2 from "../assets/img/products/llavero_personalizado2.jpg"
+import bolso_ecologico2 from "../assets/img/products/bolso_ecologico2.jpg" 
+import tula_subliminada from "../assets/img/products/tula_sublimada.jpg"
+import visera_subliminada from "../assets/img/products/visera_subliminada.jpg"
+import cartuchera from "../assets/img/products/cartuchera.jpg"
+import kit_higiene_personalizado from "../assets/img/products/kit_higiene_personalizado.jpg"
+import vela_aromatica_personalizada from "../assets/img/products/vela_aromatica_personalizada.jpg"
+import resaltadores_colores from "../assets/img/products/resaltadores_colores.jpg"
+import paragua from "../assets/img/products/paragua.jpg"
+import roll_up from "../assets/img/products/roll_up.jpg"
+
 export const ProductsData = [
   {
       id: 1,
@@ -643,6 +658,141 @@ export const ProductsData = [
       description: "Diseñado para ofrecer un control preciso del mouse, el Padmouse Antideslizante cuenta con una base resistente y superficie suave para máxima comodidad.",
       price: "$6.99",
       img: padmouse
-    }
+    },
     
+    {
+      id: 59,
+      category: "Papeleria Creativa",
+      title: "Mini Agenda",
+      shortDescription: " Tu compañera perfecta para mantener tus tareas y compromisos bajo control.",
+      description: "Portada resistente y estilo elegante la hacen ideal para uso personal o profesional. ¡Organízate con estilo y facilidad!.",
+      price: "$6.99",
+      img: miniagenda
+    },
+    {
+      id: 60,
+      category: "Papeleria Creativa",
+      title: "Mini Memos",
+      shortDescription: "Prácticos y versátiles, ideales para notas rápidas.",
+      description: "Diseño compacto y funcional, te permiten anotar ideas, tareas o mensajes importantes al instante or tada resistente y estilo elegante la hacen ideal para uso personal o profesional. ¡Organízate con estilo y facilidad!.",
+      price: "$6.99",
+      img: minimemos
+    },
+    {
+      id: 61,
+      category: "Papeleria Creativa",
+      title: "Bolígrafos con luz Led",
+      shortDescription: "Elegantes, prácticos y perfectos para uso diario .",
+      description: "Este bolígrafo personalizado con un cuerpo resistente y estilo moderno los convierte en un accesorio indispensable.",
+      price: "$6.99",
+      img: boligrafo_led
+    },
+    {
+      id: 62,
+      category: "Papeleria Creativa",
+      title: "Bolígrafos táctil para celular",
+      shortDescription: "Escribe y navega con un solo bolígrafo.",
+      description: "Escribe en papel y navega en pantallas, con punta táctil precisa y diseño ergonómico con logo.",
+      price: "$6.99",
+      img: boligrafo_tactil_celular
+    },
+    {
+      id: 63,
+      category: "Papeleria Creativa",
+      title: "Llaveros personalizados",
+      shortDescription: "Diseñados para ser útiles y memorables.",
+      description: "Grabados con tu logo, ideales para promover tu marca, perfectos para regalar a clientes o equipos de trabajo.",
+      price: "$6.99",
+      img: llavero_personalizado2
+    },
+    {
+      id: 64,
+      category: "Papelería Creativa",
+      title: "Bolso Ecológico",
+      shortDescription: "Estilo sostenible para un futuro mejor. Lleva lo esencial con conciencia ambiental.",
+      description: "Combina funcionalidad, compromiso ambiental, ligero y lavable. Ideal para el día a día, diseño resistente.",
+      price: "$6.99",
+      img: bolso_ecologico2
+    },
+    {
+      id: 65,
+      category: "Papelería Creativa",
+      title: "Tula Sublimada",
+      shortDescription: "Estilo único y resistente, personalizada con diseños vibrantes.",
+      description: "Fabricada en poliéster de alta calidad, esta tula luce diseños nítidos y colores brillantes gracias a la técnica de sublimación, que garantiza durabilidad.",
+      price: "$6.99",
+      img: tula_subliminada
+    },
+    {
+      id: 66,
+      category: "Papelería Creativa",
+      title: "Visera Subliminada",
+      shortDescription: "Proteccion del sl, con estilo personalizado.",
+      description: "Diseñada con materiales ligeros y transpirables, combinando funcionalidad y moda.",
+      price: "$6.99",
+      img: visera_subliminada
+    },
+    {
+      id: 67,
+      category: "Papelería Creativa",
+      title: "Cartuchera Subliminada",
+      shortDescription: "Organiza tus útiles con estilo. Diseño personalizado y resistente.",
+      description: "Elaborada en poliéster de alta calidad, combina funcionalidad y personalización gracias a la técnica de sublimación, que garantiza diseños nítidos y duraderos.",
+      price: "$6.99",
+      img: cartuchera
+    },
+    {
+      id: 68,
+      category: "Papelería Creativa",
+      title: "Kit de Higiene personalizado",
+      shortDescription: "Cuidado en un solo set. Ideal para viajes, oficina o uso diario",
+      description: "Set incluye artículos de higiene básicos presentados con el logo de tu empresa. Perfecto para regalos corporativos, eventos promocionales o detalles para clientes.",
+      price: "$6.99",
+      img: kit_higiene_personalizado
+    },
+    {
+      id: 69,
+      category: "Papelería Creativa",
+      title: "Vela Aromática Personalizada",
+      shortDescription: "Ambienta tus espacios con aromas relajantes y un toque de personalización.",
+      description: "Personalizada con el logo o mensajes de tu empresa, es ideal para regalos corporativos, detalles de clientes o ambientar espacios con estilo. Disponible en variedad de aromas  y presentada en un frasco elegante reutilizable.",
+      price: "$6.99",
+      img: vela_aromatica_personalizada
+    },
+    {
+      id: 70,
+      category: "Papelería Creativa",
+      title: "Globos Personalizados",
+      shortDescription: "Celebra con estilo.",
+      description: "Transforma cualquier evento en una experiencia memorable con nuestros globos personalizados de alta calidad. Fabricados en látex o metalizados, resistentes y con impresión nítida de tu logo, mensaje o diseño corporativo",
+      price: "$6.99",
+      img: vela_aromatica_personalizada
+    },
+    {
+      id: 71,
+      category: "Papelería Creativa",
+      title: "Resaltadores de Colores",
+      shortDescription: "Disfruta de tus bebidas frías o calientes con este práctico vaso reutilizable.",
+      description: "Tus bebidas favoritas con estilo. Vaso reutilizable con pitillo incluido, ideal para el día a día o eventos. Personalizado con tu logo o mensaje.",
+      price: "$6.99",
+      img: resaltadores_colores
+    },
+    {
+      id: 72,
+      category: "Papelería Creativa",
+      title: "Paragua personalizado",
+      shortDescription: "Paraguas de alta calidad combina funcionalidad y visibilidad para tu marca.",
+      description: "Diseño personalizado, garantiza que tu marca se destaque en cualquier situación. Ideal para regalos corporativos, promociones o equipos de trabajo.",
+      price: "$6.99",
+      img: paragua
+    },
+    {
+      id: 73,
+      category: "Papelería Creativa",
+      title: "Roll Up",
+      shortDescription: "Presenta tu marca con profesionalismo. Diseño elegante y portátil.",
+      description: "Herramienta esencial para promoción y comunicación visual, este roll up exhibe tu marca con claridad y estilo. Fabricado en lona de alta calidad o vinilo resistente, incluye sistema retráctil para fácil transporte y montaje.",
+      price: "$6.99",
+      img: roll_up
+    },
   ];
